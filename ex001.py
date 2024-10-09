@@ -3,10 +3,12 @@
 #Imprimir(SOMA);
 #Ao final do processamento, qual será o valor da variável SOMA?
 
+# Informações passadas pelo enunciado
 indice = 13
 soma = 0
 k = 0
 
+# Laço de repetição while para executar o cálculo necessário
 while k < indice:
     k += 1
     soma += k

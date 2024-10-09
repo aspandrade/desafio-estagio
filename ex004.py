@@ -7,20 +7,25 @@
 
 #Escreva um programa na linguagem que desejar onde calcule o percentual de representação que cada estado teve dentro do valor total mensal da distribuidora. 
 
+
+# Relação de faturamento mensal
 sp = 67836.43
 rj = 36678.66
 mg = 29229.88
 es = 27165.48
 outros = 19849.53
 
+# Calculando o faturamento total (os 100% da empresa)
 total = sp + rj + mg + es + outros
 
+# Calculando a equivalência, representação percentual de cada localidade tomando o valor total como 100%
 percentual_sp = (sp*100) / total
 percentual_rj = (rj*100) / total
 percentual_mg = (mg*100) / total
 percentual_es = (es*100) / total
 percentual_outros = (outros*100) / total
 
+# Imprimindo os valores para o Usuário
 print(f"Percentual de representação de SP: {percentual_sp:.2f}%")
 
 print(f"Percentual de representação do RJ: {percentual_rj:.2f}%")
